@@ -1,0 +1,14 @@
+{
+  "status": "candidate_from_board_configuration_not_independently_validated",
+  "source_camera": "/mnt/data/code/fast-livo2/src/FAST-LIVO2/config/camera_pinhole.yaml",
+  "source_extrinsic": "/mnt/data/code/fast-livo2/src/FAST-LIVO2/config/avia.yaml",
+  "image_size": [1440, 1080],
+  "intrinsics": [[1038.6749, 0.0, 703.0561], [0.0, 1040.0463, 582.8034], [0.0, 0.0, 1.0]],
+  "distortion": [-0.134968, 0.100034, -0.000421, 0.000602],
+  "rotation_camera_lidar": [[-0.010355, -0.999939, 0.003799], [-0.002955, -0.003768, -0.999989], [0.999942, -0.010366, -0.002916]],
+  "translation_camera_lidar_m": [-0.007210, -0.080534, -0.024521],
+  "lidar_imu_translation_config_m": [0.04165, 0.02326, -0.0284],
+  "lidar_imu_rotation_config": [[1,0,0],[0,1,0],[0,0,1]],
+  "warning": "Board config value is not proof of actual November 2 camera calibration, mounting, or transform direction; verify in code and with reprojection. It does not supply full LiDAR-to-INS extrinsic."
+}
+
